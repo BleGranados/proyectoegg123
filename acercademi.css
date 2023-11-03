@@ -1,0 +1,74 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos para seccion-1 */
+.seccion-1 {
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+/* Estilos para acerca-de */
+.acerca-de {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para los párrafos dentro de acerca-de */
+.parrafo1,
+.parrafo2 {
+    margin-bottom: 20px;
+}
+
+/* Estilos para acerca-imagen */
+.acerca-imagen img {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Estilos Generales */
+#seccion-principal {
+    padding: 20px;
+}
+
+.seccion-1 {
+    padding: 15px;
+    background-color: #f2f2f2;
+}
+
+.acerca-de h2 {
+    font-size: 2em;
+}
+
+.parrafo1,
+.parrafo2 {
+    font-size: 1em;
+    margin-top: 10px;
+}
+
+
+/* Estilos para pantallas más pequeñas (hasta 768px) */
+@media (max-width: 768px) {
+    .acerca-de h2 {
+        font-size: 1.5em;
+    }
+
+    .parrafo1,
+    .parrafo2 {
+        font-size: 0.9em;
+    }
+
+    .acerca-imagen img {
+        max-width: 90%;
+    }
+
+}
